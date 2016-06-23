@@ -1,0 +1,1 @@
+select phone_type, in_out, rec_local, duration, amount from xademo.call_detail_records ;

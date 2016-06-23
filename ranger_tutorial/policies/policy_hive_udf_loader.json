@@ -1,0 +1,35 @@
+{
+	"policyName":"Hive Demo UDF Loader",
+	"resourceName":"/*/*",
+	"description":"",
+	"repositoryName":"sandbox_hive",
+	"repositoryType":"Hive",
+	"permMapList":[
+		{
+			"userList":[
+				"hive"
+			],
+			"permList":[
+				"Admin",
+				"Select",
+				"Update",
+				"Create",
+				"Drop",
+				"Alter",
+				"Index",
+				"Lock",
+				"All"
+			]
+			
+		}
+		
+	],
+	"tables":"",
+	"columns":"",
+	"databases":"xademo",
+	"udfs":"*",
+	"tableType":"Inclusion",
+	"columnType":"Inclusion",
+	"isEnabled":true,
+	"isAuditEnabled":true
+}

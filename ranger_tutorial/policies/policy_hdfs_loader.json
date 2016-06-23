@@ -1,0 +1,25 @@
+{
+	"policyName":"HDFS Demo Data Loader",
+	"resourceName":"/demo",
+	"description":"",
+	"repositoryName":"sandbox_hdfs",
+	"repositoryType":"HDFS",
+	"permMapList":[
+		{
+			"userList":[
+				"hdfs"
+			],
+			"permList":[
+				"Admin",
+				"Read",
+				"Write",
+				"Execute"
+			]
+			
+		}
+		
+	],
+	"isEnabled":true,
+	"isRecursive":true,
+	"isAuditEnabled":true
+}
